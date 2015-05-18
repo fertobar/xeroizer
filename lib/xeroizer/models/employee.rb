@@ -17,6 +17,8 @@ module Xeroizer
       string  :status
       string  :first_name
       string  :last_name
+      string  :gender # M or F
+      string  :email
 
       belongs_to  :external_link
 
